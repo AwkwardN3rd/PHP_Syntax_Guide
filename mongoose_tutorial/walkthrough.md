@@ -50,7 +50,7 @@ app.post('/addto',function(req,res){
 ```
 
 Now in Postman we would input the properties and there values like so:
-![alt text](images/addto.png "Addto")
+![alt text](https://github.com/AwkwardN3rd/Syntax_Guides/tree/master/mongoose_tutorial/images/addto.png "Addto")
 
 
 ## Read/Find Route
@@ -70,7 +70,7 @@ app.get('/find',function(req,res){
 ```
 
 Postman should read off all the characters from your database.
-![alt text](images/find.png "Find")
+![alt text](https://github.com/AwkwardN3rd/Syntax_Guides/tree/master/mongoose_tutorial/images/find.png "Find")
 
 ## Update Route & Delete Route
 Both the update and delete function are simular in they both take one property, find the match and either change or remove it.
@@ -92,7 +92,7 @@ character.deleteOne({name:req.body.name},function(err,results){
 ```
 
 Update in Postman:
-![alt text](images/update.png "Update")
+![alt text](https://github.com/AwkwardN3rd/Syntax_Guides/tree/master/mongoose_tutorial/images/update.png "Update")
 
 Delete in Postman
-![alt text](images/delete.png "Delete")
+![alt text](https://github.com/AwkwardN3rd/Syntax_Guides/tree/master/mongoose_tutorial/images/delete.png "Delete")
