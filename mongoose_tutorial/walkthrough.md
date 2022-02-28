@@ -72,7 +72,7 @@ app.get('/find',function(req,res){
 
 Postman should read off all the characters from your database.
 
-![alt text](https://github.com/AwkwardN3rd/Syntax_Guides/blob/master/mongoose_tutorial/images/delete.PNG)
+![alt text](https://github.com/AwkwardN3rd/Syntax_Guides/blob/master/mongoose_tutorial/images/find.PNG)
 
 ## Update Route & Delete Route
 Both the update and delete function are simular in they both take one property, find the match and either change or remove it.
@@ -95,8 +95,8 @@ character.deleteOne({name:req.body.name},function(err,results){
 
 Update in Postman:
 
-![alt text](https://github.com/AwkwardN3rd/Syntax_Guides/blob/master/mongoose_tutorial/images/find.PNG)
+![alt text](https://github.com/AwkwardN3rd/Syntax_Guides/blob/master/mongoose_tutorial/images/update.PNG)
 
 Delete in Postman:
 
-![alt text](https://github.com/AwkwardN3rd/Syntax_Guides/blob/master/mongoose_tutorial/images/update.PNG)
+![alt text](https://github.com/AwkwardN3rd/Syntax_Guides/blob/master/mongoose_tutorial/images/delete.PNG)
